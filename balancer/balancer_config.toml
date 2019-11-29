@@ -1,0 +1,22 @@
+# Available option: round_robin | weighted_round_robin
+algor = "round_robin"
+
+[[endpoints]]
+name = "s1"
+addr = "127.0.0.1:8081"
+weight = 3
+
+[[endpoints]]
+name = "s2"
+addr = "127.0.0.1:8082"
+weight = 1
+
+[[endpoints]]
+name = "s3"
+addr = "127.0.0.1:8083"
+weight = 0
+
+[[endpoints]]
+name = "s4"
+addr = "127.0.0.1:8084"
+weight = 1
